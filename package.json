@@ -1,0 +1,35 @@
+{
+  "name": "ournet.exchange-updater",
+  "version": "0.1.0",
+  "description": "ournet exchange updater",
+  "private": true,
+  "main": "./lib/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "node ./lib/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ournet/ournet.exchange-updater.git"
+  },
+  "keywords": [
+    "ournet",
+    "exchange",
+    "updater",
+    "app"
+  ],
+  "bugs": {
+    "url": "https://github.com/Ournet/ournet.exchange-updater/issues"
+  },
+  "homepage": "https://github.com/Ournet/ournet.exchange-updater#readme",
+  "author": "Dumitru Cantea",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "dotenv": "^0.5.1",
+    "ournet.data.exchange": "^0.2.1",
+    "ournet.logger": "^0.1.0",
+    "request": "^2.53.0",
+    "xml2js": "^0.4.5"
+  }
+}
